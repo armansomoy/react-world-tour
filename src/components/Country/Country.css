@@ -4,6 +4,7 @@
     transition: all .3s;
     display: inline-block;
     padding: 20px 20px;
+    text-align: left;
 }
 
 .country:hover{
@@ -11,5 +12,12 @@ box-shadow: 0px 0px 8px #a2a2a2;
 }
 .country img{
     height: 170px;
-    width: 250px;
+    width: 100%;
+}
+
+.visited{
+    background-color: black;
+}
+.nonVisited{
+    background-color: transparent;
 }
